@@ -1,1 +1,1 @@
-module.exports = 'Teorías y perspectivas de la psicología evolutiva'
+module.exports = 'Plan de atención integral para la primera infancia'

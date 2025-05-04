@@ -1,221 +1,243 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. Modelo sociocultural Lev Vygotsky.'")
+    BannerInterno(:subTitulo="'2. Acciones de protección social'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-  
-      .row.mb-4
+
+      p.mb-4 Las <b>acciones de protección social</b> comprenden estrategias, políticas y programas diseñados para <b>garantizar el bienestar, la equidad y la calidad de vida</b>, especialmente en poblaciones vulnerables. Estas acciones buscan <b>atender integralmente necesidades básicas</b> y promover el desarrollo infantil, articulando servicios de salud, educación, nutrición, cuidado y recreación (ICBF, 2018).
+      .row.bg-rosa.bg-full-width.p-4.py-xl-0
+        .col-12.col-xl-8.d-flex
+          .my-auto.py-xl-4
+            p.mb-4 En el caso de la infancia, estas acciones incluyen:
+
+            span ●	Programas de atención integral a la primera infancia<br>●	Estimulación temprana<br>●	Promoción de hábitos saludables<br>●	Participación familiar y comunitaria
         .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8
-          p.mb-4 Según Carrera y Mazzarella (2001), el interés por la obra de Lev Vygotsky ha aumentado notablemente en el campo de la psicología y la educación. Su enfoque histórico y filosófico, sustentado en el materialismo histórico-dialéctico, permitió el desarrollo de un nuevo sistema psicológico en el cual la educación es parte fundamental del desarrollo psicológico.
-          .d-flex.align-items-start.bg-rosa.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-15.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-0 Vygotsky planteó que el desarrollo humano debe entenderse en contexto social y cultural. En su teoría, <b>la pedagogía se convierte en el eje central</b>, ya que el aprendizaje en interacción con otros es el motor del desarrollo cognitivo.
+          img(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen')
 
+      .d-flex.align-items-start.bg-morado.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-33.svg', alt='Texto descriptivo de la imagen')
+        .my-auto
+          p.pe-xl-3.mb-0 Organismos como el <b>ICBF</b>, las <b>cajas de compensación familiar</b>, las <b>EPS</b> y organizaciones sociales son responsables de su implementación, trabajando con un enfoque <b>inclusivo e intersectorial</b>.
 
-      .row.bg-fondo-2.bg-full-width.py-4.mb-4
+      .row.bg-fondo-1.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3
+      
+          #t_2_1.titulo-segundo(data-aos="flip-up")
+            div.d-flex
+              span.me-3 2.1
+              h2 Programa “De Cero a Siempre”
 
-          h2 Funciones mentales y rol del lenguaje
-          p.mb-4 García Trejos (2020) explica que Vygotsky diferenciaba entre:
-          .row.mb-4
-            .col-12.col-xl-6
-              .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-16.svg', alt='Texto descriptivo de la imagen')
-                .my-auto
-                  p.pe-xl-3.mb-3.text-bold Funciones mentales elementales
-                  span Comunes entre humanos y animales (e.g., percepción, atención involuntaria).
-            .col-12.col-xl-6
-              .d-flex.align-items-start.bg-verde.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-17.svg', alt='Texto descriptivo de la imagen')
-                .my-auto
-                  p.pe-xl-3.mb-3.text-bold Funciones mentales superiores	
-                  span Exclusivas del ser humano, se desarrollan mediante la interacción social y el lenguaje.
-          p.mb-4 El <b>lenguaje</b> ocupa un lugar central, no solo como medio de comunicación, sino como <b>herramienta mediadora del pensamiento</b> y la transmisión cultural. Vygotsky propone que pensamiento y lenguaje tienen orígenes diferentes, pero se unifican en el desarrollo del niño, transformando el lenguaje en pensamiento racional.
-          h2 Herramientas y signos como mediadores
-          p.mb-4 Vygotsky distingue entre:
+          p.mb-4 El <b>Programa De Cero a Siempre</b>, liderado por el <b>ICBF</b>, articula esfuerzos de múltiples sectores para garantizar el <b>desarrollo integral de niños y niñas desde la gestación hasta los cinco años</b>, integrando salud, nutrición, educación, cuidado, protección y participación comunitaria. Los objetivos del programa son: 
 
-          .row.mb-4
-            .col-10.col-md-6.mb-4.mx-auto(data-aos="fade-right")
-              div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-18.png', alt='Texto que describa la imagen')
-                div.mb-4
-                  p.text-bold.text-center Herramientas <i>(tools)</i>	
-                  p.text-small.px-4.text-center.pb-2 Orientadas externamente, modifican objetos del entorno físico (e.g., un martillo, una calculadora).
-            .col-10.col-md-6.mb-4.mx-auto(data-aos="fade-left")
-              div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-19.png', alt='Texto que describa la imagen')
-                div.mb-4
-                  p.text-bold.text-center Signos <i>(signs)</i>	
-                  p.text-small.px-4.text-center.pb-2 Orientación interna, modifican procesos mentales (e.g., el lenguaje, los números, los símbolos culturales).
+          .row.mb-4.justify-content-center
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-34.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Primero
+                p.px-1.text-small.mb-0.text-center Garantizar condiciones adecuadas para el desarrollo físico, cognitivo, emocional y social.
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-35.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Segundo
+                p.px-1.text-small.mb-0.text-center Asegurar el acceso equitativo a servicios esenciales sin importar el contexto socioeconómico.
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-36.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Tercero
+                p.px-1.text-small.mb-0.text-center Involucrar activamente a las familias y comunidades en el proceso de crianza.
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-37.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Cuarto
+                p.px-1.text-small.mb-0.text-center Reducir brechas de desigualdad desde la primera infancia.
 
-      p.mb-4 Ambos son fundamentales para comprender cómo el ser humano transforma su realidad y su propia mente. Por ejemplo, el lenguaje actúa como mediador cuando un adulto ayuda a un niño a comprender el equilibrio construyendo una torre de bloques. El niño interioriza conceptos abstractos como "grande", "pequeño" o "estable", gracias a la mediación verbal.
-      h2 Desarrollo del lenguaje infantil
-      p.mb-4 García Trejos (2020) identifica tres formas progresivas de lenguaje en el niño:
+      p.mb-4 Los componentes del Programa De Cero a Siempre son: 
 
       .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
         div.px-4.px-md-5.py-md-3
           SlyderA(tipo="b").bg-white
             .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Salud y nutrición
+                p Acceso a servicios de salud, controles de crecimiento, vacunación y programas para prevenir la desnutrición. Ejemplo: jornadas de vacunación en zonas rurales, seguimiento nutricional en centros de salud y distribución de suplementos de hierro y vitamina A para prevenir la anemia.
               .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
                 figure
-                  img(src='@/assets/curso/unidad/img-20.png', alt='Texto que describa la imagen')
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Habla social
-                p Desde los 3 años. Se usa para comunicarse con otros y controlar su conducta. Es clave para la socialización y las interacciones.
+                  img(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
             .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Educación inicial 
+                p Programas de aprendizaje temprano para estimular el desarrollo cognitivo, emocional y social. Ejemplo: actividades en centros infantiles como juegos interactivos, arte, música y programas de prelectura y pre matemáticas en sectores de bajos recursos.
               .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
                 figure
-                  img(src='@/assets/curso/unidad/img-21.png', alt='Texto que describa la imagen')
-              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Habla egocéntrica
-                p 3 a 7 años. El niño se habla a sí mismo para guiar sus acciones. No busca comunicación, pero regula la conducta.
+                  img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
             .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Cuidado y protección
+                p Garantiza entornos seguros, libres de violencia, y atención prioritaria a niños en situación de riesgo. Ejemplo: capacitación en disciplina positiva para cuidadores y casas de acogida con atención psicológica para niños afectados por violencia.
               .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
                 figure
-                  img(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
               .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
-                p.text-bold Habla interna
-                p A partir de los 7 años. Silenciosa y mental. Permite el pensamiento abstracto, la reflexión y la autorregulación cognitiva.
-
-      p.mb-4 Estas formas no son independientes, sino etapas de un proceso evolutivo. El lenguaje <b>se interioriza</b>, transformándose en una herramienta cognitiva esencial para la resolución de problemas.
-      h2 Métodos de análisis genético
-      p.mb-4 Vygotsky propone que para comprender los procesos psicológicos es necesario analizar su <b>origen y evolución</b>. De allí surgen cuatro niveles de análisis, conocidos como su método genético:
-      ImagenInfografica.color-secundario.mb-4.bg-white
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/curso/unidad/img-23.png', alt='Descripción de la imagen')
-        .tarjeta.bg-white.p-4(x='20%' y='20%' numero='+')
-          .h5.mb-2 01. Filogenético
-          p Desarrollo de la especie humana y de las funciones psicológicas superiores.
-        .tarjeta.bg-white.p-4(x='67%' y='20%' numero='+')
-          .h5.mb-2 02. Histórico-sociocultural
-          p Desarrollo de sistemas artificiales (como el lenguaje o las normas sociales) que regulan el comportamiento.
-        .tarjeta.bg-white.p-4(x='67%' y='76%' numero='+')
-          .h5.mb-2 03. Ontogenético
-          p Desarrollo individual: interacción entre biología y cultura en el ciclo vital.
-        .tarjeta.bg-white.p-4(x='20%' y='76%' numero='+')
-          .h5.mb-2 04. Microgenético
-          p Cambios en procesos psicológicos específicos observados en tiempo real (in vivo).
+                p.text-bold Participación familiar y comunitaria
+                p Promueve la corresponsabilidad de familias y comunidades mediante talleres y acciones educativas. Ejemplo: talleres sobre lactancia, rutinas saludables y el juego como herramienta de aprendizaje; creación de huertos comunitarios como espacios educativos y de seguridad alimentaria.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Inclusión y enfoque diferencial
+                p Atención adaptada a contextos culturales y a niños con discapacidad, garantizando igualdad de condiciones. Ejemplo: materiales en lengua nativa para comunidades indígenas, inclusión de tecnología asistida y recursos táctiles para niños con discapacidad.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
       
-      h2 Pensamiento y lenguaje: dos trayectorias que convergen
-      p.mb-4 Según <b>Carrera y Mazzarella (2001):</b> 
-
-      .row.mb-4.bg-verde-claro.px-4.py-4.py-xl-0
+      h2 Impacto y desafíos del programa
+      p.mb-4 El programa ha generado <b>avances significativos</b> en salud, nutrición y educación infantil, especialmente en contextos vulnerables, contribuyendo a la <b>reducción de brechas sociales</b> y fortaleciendo las capacidades familiares. Ha sentado bases para un <b>desarrollo sostenible</b> al integrar esfuerzos institucionales con la participación comunitaria.
+      .row.bg-morado.bg-full-width.p-4.py-xl-0.mb-4
         .col-12.col-xl-8.d-flex
-          .my-auto
-            p.mb-0 ●	El pensamiento y el lenguaje tienen orígenes distintos.<br><br>●	El niño pasa por una etapa preintelectual del lenguaje y una prelingüística del pensamiento.<br><br>●	Eventualmente, ambas líneas se integran, dando lugar al pensamiento verbal, donde la palabra adquiere un significado interno que refleja el razonamiento.
+          .my-auto.py-xl-4
+            p.mb-4 Desafíos actuales incluyen:
+            p.mb-4 ●	Cobertura limitada en zonas rurales y de difícil acceso.<br>●	Necesidad de mejorar la calidad de los servicios ofrecidos.<br>●	Articulación entre entidades implementadoras.
 
+            span Pese a estos retos, el compromiso estatal y la participación activa de actores locales son clave para su sostenibilidad y expansión futura (ICBF, 2018).
         .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-43.png', alt='Texto que describa la imagen')
+      
+      #t_2_2.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 2.2
+          h2 Atención a la primera infancia
 
-      .row.bg-fondo-2.bg-full-width.py-4.mb-4
+      .row.mb-4
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8
+          .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-45.svg', alt='Texto descriptivo de la imagen')
+            .my-auto
+              p.pe-xl-3.mb-0 La atención a la primera infancia en Colombia, según el Ministerio de Educación Nacional (2006), es un enfoque integral e intersectorial que prioriza el desarrollo pleno de los niños desde la gestación hasta los seis años de edad. Reconociendo esta etapa como crítica para el desarrollo físico, emocional, cognitivo y social, el sistema de atención articula múltiples sectores para garantizar el acceso equitativo y oportuno a servicios esenciales. 
+          span A continuación, se presentan los componentes clave que garantizan una atención integral a la primera infancia.
+
+      .row.bg-fondo-1.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3
 
-          p.mb-4 Este proceso evidencia cómo <b>el lenguaje estructura el pensamiento</b>, transformando la experiencia en conocimiento.
-          h2 Aprendizaje, desarrollo y la Zona de Desarrollo Próximo (ZDP)
-          p.mb-4 Para Vygotsky, el <b>aprendizaje impulsa el desarrollo</b>. A partir de esta idea, introduce dos niveles evolutivos:
-
+          .row.mb-4
+            .col-12.col-xl-6.ms-auto
+              TarjetaAudio.color-secundario.bg-white.mb-3(
+                texto='Componentes clave'
+                tiempo
+                :audio="require('../../assets/componentes/audios/Podcast - componentes clave.mp3')"
+                @audio-hover='mostrarIndicadorTarjetaAudio = false'
+              )
+            .col-4.d-none.d-xl-block.me-auto
+              img(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
+          
+          h2 Importancia de la atención integral
+          p.mb-4 La <b>atención a la primera infancia</b> garantiza que todos los niños, independientemente de su origen o condición, puedan <b>desarrollarse en entornos seguros, saludables y estimulantes</b>. Gracias a la articulación intersectorial (salud, educación, nutrición y protección), se contribuye a:
           .row.mb-4.justify-content-center
-            .col-10.col-md-8.col-lg-6.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
               .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-25.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Real
-                p.px-1.text-small.mb-0.d-flex.text-center Funciones y habilidades que el niño ya domina y puede ejecutar de forma independiente.
-            .col-10.col-md-8.col-lg-6.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-47.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Primero
+                p.px-1.text-small.mb-0.text-center Reducir brechas sociales y económicas
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
               .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-26.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Potencial
-                p.px-1.text-small.mb-0.d-flex.text-center Habilidades en proceso de maduración que el niño puede desarrollar con ayuda de un adulto o compañero más capaz.
-
-          .row.mb-4
-            .col-12.col-xl-8
-              p.mb-4 La diferencia entre ambos niveles da lugar al concepto de: <b>Zona de Desarrollo Próximo (ZDP)</b> “Distancia entre el nivel real de desarrollo (lo que el niño puede hacer solo) y el nivel potencial (lo que puede hacer con ayuda).”
-              .bg-verde.p-4(data-aos='fade-up')
-                span Este concepto destaca la importancia de <b>la interacción social y el <i>andamiaje</i></b> (apoyo temporal) como facilitadores del aprendizaje. <b>Carrera y Mazzarella (2001)</b> señalan que los educadores deben identificar estas zonas para intervenir eficazmente y potenciar el desarrollo.
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
-          h2 Ley de la doble formación
-          p.mb-4 Vygotsky formuló esta ley para explicar cómo se desarrollan las funciones psicológicas superiores:
-          .row.mb-4
-            .col-10.col-md-6.mb-4.mx-auto(data-aos="fade-right")
-              div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
-                div.mb-4
-                  p.text-bold.text-center Interpsicológico (social)	
-                  p.text-small.px-4.text-center.pb-2 Las habilidades aparecen primero en la interacción con otros (padres, docentes, compañeros).
-            .col-10.col-md-6.mb-4.mx-auto(data-aos="fade-right")
-              div.custom-image-card.rounded-8px
-                img.mb-4(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
-                div.mb-4
-                  p.text-bold.text-center Intrapsicológico (psicológico)
-                  p.text-small.px-4.text-center.pb-2 Estas habilidades son internalizadas y se convierten en funciones cognitivas propias del niño.
-
-      .d-flex.align-items-start.bg-amarillo-oscuro.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-30.svg', alt='Texto descriptivo de la imagen')
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-48.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Segundo
+                p.px-1.text-small.mb-0.text-center Prevenir enfermedades y problemas de desarrollo
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-49.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Tercero
+                p.px-1.text-small.mb-0.text-center Fomentar la igualdad de oportunidades
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-50.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Cuarto
+                p.px-1.text-small.mb-0.text-center Fortalecer el tejido social y familiar
+      .d-flex.align-items-start.bg-morado.bg-full-width.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-51.svg', alt='Texto descriptivo de la imagen')
         .my-auto
-          p.pe-xl-3.mb-0 Este proceso de <b>internalización</b> convierte las herramientas culturales en parte del repertorio mental del individuo. El aprendizaje, por tanto, <b>no es solo adquisición de conocimientos</b>, sino transformación del pensamiento.
+          p.pe-xl-3.mb-0 Asegurar una base sólida para el aprendizaje futuro
 
-      h2 Ejemplo aplicado: la ZDP en acción
-      p.mb-4 Un niño intenta resolver un rompecabezas. Con la ayuda de un adulto que le sugiere “busca las piezas con bordes”, logra completar el desafío. Al repetir la actividad, internaliza la estrategia y puede usarla de manera independiente en futuras ocasiones. Este ejemplo muestra cómo el <b>aprendizaje mediado</b> dentro de la ZDP permite que el niño <b>avance en su desarrollo cognitivo.</b>
+      p.mb-4 A largo plazo, esta atención <b>construye una sociedad más equitativa, inclusiva y productiva</b>, al invertir en la etapa más sensible y decisiva del ciclo vital.
 
-      .row.bg-fondo-2.bg-full-width.py-4
-        div.px-5.pb-md-3
+      #t_2_3.titulo-segundo(data-aos="flip-up")
+        div.d-flex
+          span.me-3 2.3
+          h2 Programas de Estimulación Temprana
 
-          .row.bg-verde.bg-full-width.px-4.py-4.py-xl-0.mb-4
-            .col-12.col-xl-8.d-flex
-              .my-auto
-                p.mb-4 La teoría sociocultural de Lev Vygotsky nos muestra que:
-                p.mb-0 ●	El desarrollo psicológico está condicionado por factores <b>históricos, sociales y culturales</b>.<br>●	El <b>lenguaje</b> es una herramienta mediatizadora del pensamiento.<br>●	La <b>interacción social</b> y el contexto son fundamentales en el aprendizaje.<br>●	La <b>Zona de Desarrollo Próximo</b> permite entender cómo se produce el cambio cognitivo y cómo puede ser guiado estratégicamente.
+      .row.mb-4
+        .col-12.col-xl-8
+          p.mb-4 Los programas de estimulación temprana están diseñados para potenciar el desarrollo cognitivo, emocional y físico de los niños desde las primeras etapas de la vida, incluyendo la etapa prenatal hasta los 4 o 6 años. Estos programas estimulan los sentidos y habilidades mentales, como la memoria, la atención, la curiosidad y el lenguaje, a través de actividades adaptadas a la edad (Puerta, 2023).
+          .bg-rosa.p-4.mb-4(data-aos='fade-up')
+            span Además de fomentar el aprendizaje, la estimulación temprana <b>promueve la autonomía</b>, fortalece la confianza en sí mismos e impulsa la interacción social. Su metodología combina <b>repetición estructurada y novedad gradual</b>, para mantener el interés del niño sin generar sobreestimulación.
+          p.mb-4  La estimulación no debe verse como un proceso mecánico ni frustrante, sino como una experiencia adaptativa y natural, que <b>celebra el ritmo de desarrollo individual</b> (Puerta, 2023).
+          span.text-bold Los tipos de programas de estimulación temprana en Colombia son: 
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-52.png', alt='Texto que describa la imagen')
 
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
+      .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
+        div.px-4.px-md-5.py-md-3
+          SlyderA(tipo="b").bg-white
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold Cajas de compensación familiar
+                p Ofrecen programas lúdicos, recreativos y educativos para niños de 0 a 6 años, dirigidos por fisioterapeutas y profesionales en salud infantil. Actividades como música, juego, acuamotricidad, arte y desarrollo motor. Ejemplo: Cofrem (2024) realiza sesiones con juegos sensoriales y música. Compensar (2025) incluye acuamotricidad, iniciación musical y actividades físicas para desarrollar equilibrio y coordinación.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold  Entidades Promotoras de Salud (EPS)
+                p Integran la estimulación temprana en sus programas de prevención, especialmente para niños con retrasos en el desarrollo. Se enfocan en habilidades sensoriales, motrices y lingüísticas. Ejemplo: el centro CADIS (2016) desarrolla actividades estructuradas para trabajar motricidad fina, gruesa e interacción social.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold  Organizaciones deportivas
+                p Promueven el desarrollo físico y social a través de clases deportivas adaptadas. Estas actividades refuerzan la confianza, el trabajo en equipo y la disciplina. Ejemplo: Mi Señal (2021) ofrece clases de atletismo, voleibol y patinaje que
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-55.png', alt='Texto que describa la imagen')
+       
+      h2 Impacto del enfoque integral de estimulación temprana
+      p.mb-4 La estimulación temprana es <b>esencial para alcanzar los hitos del desarrollo</b> en tiempo adecuado. Cuando se aplica correctamente:
+      .row.bg-morado.bg-full-width.p-4.py-xl-0.mb-4
+        .col-12.col-xl-8.d-flex
+          .my-auto.py-xl-4
+            p.mb-4 ●	Mejora la inteligencia emocional y social del niño.<br><br>●	Potencia el desarrollo neurológico y las funciones ejecutivas.<br><br>●	Prepara al niño para la etapa escolar, facilitando el aprendizaje.<br><br>●	Favorece el fortalecimiento de la familia, al involucrarla activamente en el proceso de desarrollo.
 
-          p.mb-4 Esta visión ha influido profundamente en la educación contemporánea y sigue vigente como marco teórico para comprender la relación entre enseñanza, cultura y desarrollo.
+            span Al <b>articular esfuerzos interinstitucionales</b> (cajas, EPS, instituciones deportivas), se promueve un desarrollo infantil <b>equitativo e inclusivo</b>, beneficiando a niños de diversos contextos socioeconómicos y territoriales.
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-56.png', alt='Texto que describa la imagen')
 
-          .row.mb-4
-            .col-10.col-xl-8.mx-auto
-              .bg-white.rounded.shadow.p-3.py-lg-4.px-lg-5
-                .row.justify-content-around.align-items-center
-                  .col-4.col-sm-3.col-lg-2
-                    img(src="@/assets/componentes/video-icon-circle.svg")
-                  .col
-                    .row.justify-content-between.align-items-center
-                      .col.mb-3.mb-sm-0
-                        p.text-bold.mb-3 Desarrollo cognitivo desde la perspectiva de Vygotsky 
-                        p.text-small A continuación, les compartimos el siguiente video, donde explican el desarrollo cognitivo desde la perspectiva de Vygotsky:
-                      .col-sm-auto
-                        a.download-btn.px-3.py-2.bg-morado(href="https://www.youtube.com/watch?v=fHdQWmbhfdE" target="_blank")
-                          span.text-small Ver video
-                          i.fas.fa-arrow-right
-          .row.mb-4
-            .col-10.col-xl-8.mx-auto
-              .bg-white.rounded.shadow.p-3.py-lg-4.px-lg-5
-                .row.justify-content-around.align-items-center
-                  .col-4.col-sm-3.col-lg-2
-                    img(src="@/assets/componentes/link-icon-circle.svg")
-                  .col
-                    .row.justify-content-between.align-items-center
-                      .col.mb-3.mb-sm-0
-                        p.text-bold.mb-3 Implementación de la teoría de Vygotsky en básica primaria
-                        p.text-small También les compartimos la implementación de esta teoría en básica primaria:
-                      .col-sm-auto
-                        a.download-btn.px-3.py-2.bg-morado(href="http://repositoriodspace.unipamplona.edu.co/jspui/bitstream/20.500.12744/5078/1/Osorio_2021_TG.pdf" target="_blank")
-                          span.text-small Ir al sitio
-                          i.fas.fa-arrow-right
-
+      .row.mb-4
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-57.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8
+          .d-flex.align-items-start.bg-amarillo.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-58.svg', alt='Texto descriptivo de la imagen')
+            .my-auto
+              p.pe-xl-3.mb-0 Los programas de estimulación temprana son una <b>herramienta estratégica para el desarrollo integral</b> de la infancia. Su implementación por parte de <b>entidades públicas y privadas</b> asegura que los niños tengan acceso a experiencias enriquecedoras que fortalecen todas sus dimensiones: física, emocional, cognitiva y social.
+          span Este enfoque, al ser preventivo, educativo y participativo, <b>contribuye al bienestar de las familias y al desarrollo sostenible del país</b>, asegurando que cada niño y niña tenga oportunidades reales de alcanzar su máximo potencial.
       .row.bg-verde.bg-full-width.py-4.mb-5
         div.px-5.pb-md-3.py-4.d-flex
-          .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-            img.h-100(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen')
-          .col-12.col-xl-7.d-flex.ps-4.ps-xl-5.align-items-center.flex-column
-            h2.mb-4.pb-2.me-auto Teoría del desarrollo moral
-            p.mb-5(data-aos="fade-up") Se invita a leer el documento Teoría del desarrollo moral , donde se aborda el enfoque de Lawrence Kohlberg sobre cómo las personas desarrollan su capacidad para razonar sobre dilemas éticos a lo largo de la vida. Este documento ofrece explicaciones detalladas, análisis comparativos entre autores como Piaget y Kohlberg, y ejemplos ilustrativos de cada etapa del desarrollo moral, con el fin de comprender la evolución del juicio moral desde la niñez hasta la adultez. 
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
+            h2.mb-4.pb-2.me-auto Protección de derechos: programas deportivos, programas preventivos para la infancia, cuidado y restablecimiento de derechos desde ICBF
+            p.mb-5(data-aos="fade-up") Se invita a leer el documento Protección de derechos,  donde se aborda el compromiso del Estado colombiano y diversas instituciones en la garantía, prevención y restablecimiento de los derechos de la infancia y adolescencia.   
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Protección de derechos.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Teoría del desarrollo moral
+              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Protección de derechos: programas deportivos, programas preventivos para la infancia, cuidado y restablecimiento de derechos desde ICBF
+          .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
+            img.h-100(src='@/assets/curso/unidad/img-59.png', alt='Texto que describa la imagen')
 
+      .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+        .p-4.p-md-5
+          #Actividad
+            <Actividad :cuestionario='cuestionario'/>
+      
       .bg-full-width.border-top-9-azul
         .px-5.pt-5.pb-0
           h2 Material complementario
@@ -223,22 +245,179 @@
             .col-12.col-md-6.col-lg-8
               p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="http://repositoriodspace.unipamplona.edu.co/jspui/bitstream/20.500.12744/5078/1/Osorio_2021_TG.pdf") Implementación de una estrategia Webquest con base en la teoría de Lev S. Vygotsky para la producción de textos escritos
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="http://repositoriodspace.unipamplona.edu.co/") Repositorio Universidad de Pamplona
+                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/63324?page=1") Estimulación temprana y psicomotricidad
               p.d-flex.my-4
                 img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=fHdQWmbhfdE") [Vídeo] La Teoría del Desarrollo Cognitivo a Través de las Relaciones Sociales de Vygotsky
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=UoqA0T9uVSY") [Vídeo] Fortaleciendo los vínculos con la primera infancia
             .col-12.col-md-6.col-lg-3
               figure
                 img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
+
+      p
 
 </template>
 
 <script>
 export default {
   name: 'Tema2',
+  data: () => ({
+    cuestionario: {
+      tema: 'Atención infantil integral',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Cuál es el principal objetivo del plan de vacunación infantil?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Reducir la mortalidad infantil de un grupo especial de niños',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Prevenir enfermedades prevenibles por vacunas',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Garantizar el bienestar integral del niño',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'b y c son correctas', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué acción se incluye en los programas de estimulación temprana?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Actividades lúdicas y recreativas',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Terapias de lenguaje para niños con dificultades',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Solo desarrollo de habilidades motoras',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'Desarrollo de habilidades motoras, cognitivas y de lenguaje',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'En el proceso administrativo de restablecimiento de derechos (PARD), el interés superior del menor implica que:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Las decisiones siempre priorizan el bienestar del niño',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Se evalúan las condiciones de la comunidad',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Se busca un entorno protector en otro país',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Se hace un llamado de atención a la familia.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto: '¿Qué organización lidera el programa "De Cero a Siempre"?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ministerio de Educación Nacional',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Instituto Colombiano de Bienestar Familiar (ICBF)',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Entidades Promotoras de Salud (EPS)',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cajas de compensación familiar',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Qué objetivos tienen los programas deportivos para la infancia?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Fortalecer valores como la disciplina y el trabajo infantil',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Promover entornos seguros para el desarrollo infantil',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Fomentar la inclusión social y la salud física',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'b y c son correctas', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

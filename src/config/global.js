@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Teorías y perspectivas de la psicología evolutiva',
+    numeroUnidad: '3',
+    tituloUnidad: 'Plan de atención integral para la primera infancia',
   },
   menuPrincipal: {
     menu: [
@@ -15,33 +15,50 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Teoría del desarrollo de Sigmund Freud.',
+        titulo:
+          'Acciones de salud integral para los niños: plan de vacunación infantil, programa de crecimiento y desarrollo',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Plan de vacunación infantil',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Programa de crecimiento y desarrollo',
+            hash: 't_1_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Modelo sociocultural Lev Vygotsky.',
+        titulo: 'Acciones de protección social',
         desarrolloContenidos: true,
-        subMenu: [],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Teoría de la visión sistémica de Chomsky.',
-        desarrolloContenidos: true,
-        subMenu: [],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Aprendizaje significativo.',
-        desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Programa “De Cero a Siempre”',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Atención a la primera infancia',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Programas de Estimulación Temprana',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -81,135 +98,182 @@ export default {
   referencias: [
     {
       referencia:
-        'Castellanos Urrego, S. G. (2013). Una aproximación al desarrollo psicosexual desde la perspectiva de la metapsicología freudiana.',
-      link: 'https://www.redalyc.org/pdf/801/80131178010.pdf',
+        'Organización Panamericana de la Salud. (2025, 14 marzo). OPS/OMS. Salud del niño',
+      link: 'https://www.paho.org/es/temas/salud-nino',
     },
     {
       referencia:
-        'Corral Íñigo, A. (2013). Psicología evolutiva I: introducción al desarrollo. Vol. I: ( ed.). UNED - Universidad Nacional de Educación a Distancia.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/48354?page=25',
-    },
-    {
-      referencia:
-        'García Trejos, L. (2020). Principales teorías del desarrollo.',
+        'Ministerio de salud & Ministerio de protección social. (2016). Política de atención integral en salud. MINSALUD.',
       link:
-        'https://repositorio.usam.ac.cr/xmlui/bitstream/handle/11506/1358/LEC%20PSIC%200036%202020.pdf?sequence=1&isAllowed=y',
+        'https://www.minsalud.gov.co/sites/rid/lists/bibliotecadigital/ride/de/modelo-pais-2016.pdf',
     },
     {
       referencia:
-        'Triglia, A. (2016, agosto 12). Las 5 etapas del desarrollo psicosexual de Sigmund Freud. pymOrganization.',
+        'Ministerio de Salud y Protección Social. (s/f.). Atenciones salud y nutrición: Ruta cero a siempre – Unidos.',
       link:
-        'https://psicologiaymente.com/psicologia/etapas-desarrollo-psicosexual-sigmund-freud',
+        'https://www.minsalud.gov.co/sites/rid/1/atenciones%20salud%20y%20nutrici%C3%B3n_ruta%20cero%20a%20siempre-Unidos.pdf',
     },
     {
       referencia:
-        'Carrera, B., Mazzarella, C. (2001). Vygotsky: Enfoque sociocultural. Educere, 5(13), 41-44.',
-      link: 'https://www.redalyc.org/pdf/356/35601309.pdf',
+        'Balado Sansón, R. M. (2009). La vacunación en el niño: una vía de protección: (ed.). El Cid Editor | apuntes.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/31297?page=4',
     },
     {
       referencia:
-        'García Trejos, L. (2020). Principales teorías del desarrollo.',
+        'Ministerio de Salud y Protección Social. (2020, octubre 7). Programa Ampliado de Inmunizaciones (PAI).',
       link:
-        'https://repositorio.usam.ac.cr/xmlui/bitstream/handle/11506/1358/LEC%20PSIC%200036%202020.pdf?sequence=1&isAllowed=y',
+        'https://www.minsalud.gov.co/salud/publica/Vacunacion/paginas/pai.aspx',
     },
     {
       referencia:
-        'Gómez, Mejía. S. (2015) Teoría del juicio moral de Kohlberg.',
+        'Minsalud. (2019). Esquema de vacunación de Colombia. Biblioteca digital.',
       link:
-        'https://repository.uaeh.edu.mx/revistas/index.php/prepa3/article/view/13774/12064',
+        'https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/VS/PP/ET/ficha-esquema-vacunacion-vf2.pdf',
     },
     {
       referencia:
-        'Triglia, A. (2024, octubre 14). La teoría del desarrollo moral de Lawrence Kohlberg.',
+        'Minsalud. (2014). Guía de práctica clínica. En Biblioteca Digital (Guía n 24).',
       link:
-        'https://psicologiaymente.com/desarrollo/teoria-desarrollo-moral-lawrence-kohlberg',
+        'https://minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/gpc-alteraciones-crecimiento-ninos-menores-10-Anos.pdf',
     },
     {
       referencia:
-        'Restrepo, L. (2022, marzo 11). Teoría Visión Sistémica Ecológica según Chomsky.',
+        "Instituto Colombiano de Bienestar Familiar. (2018). Guía para la Implementación Territorial de la Política de Estado para el Desarrollo Integral de la Primera Infancia 'De Cero a Siempre. En ICBF.",
+      link: 'https://deceroasiempreterritorial.icbf.gov.co/images/cartilla.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Educación Nacional. (2006). ¿Qué es la atención integral? - Primera infancia.',
       link:
-        'https://studylib.es/doc/9174263/pdf-teoria-vision-sistemica-ecologica-segun-chomsky-jerry...',
+        'https://www.mineducacion.gov.co/primerainfancia/1739/article-177827.html',
     },
     {
       referencia:
-        'Martínez del Castillo, J. G. (2013). Los fundamentos de la Teoría de Chomsky: revisión crítica: (ed.). Biblioteca Nueva.',
+        'Puerta, A. R. (2023, 26 mayo). Estimulación temprana. Lifeder.',
+      link: 'https://www.lifeder.com/estimulacion-temprana/',
+    },
+    {
+      referencia:
+        'Cofrem. (2024). Programas saludables: Estimulación temprana.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/117469?page=14',
+        'https://www.cofrem.com.co/recreacion-y-deportes/programas-saludables/estimulacion-temprana',
     },
     {
       referencia:
-        'Pérez, J. Jiménez, L. (2023, noviembre 11). Teoría DE la Visión sistémica Ecológica Noam Chomsky.Prezi.com.',
+        'Compensar. (2025). Plan de estimulación y desarrollo integral.',
       link:
-        'https://prezi.com/p/mvruqg8cpwg6/teoria-de-la-vision-sistemica-ecologica-noam-chomsky/',
+        'https://www.tiendacompensar.com/bienestar-integral/plan-de-estimulacion-y-desarrollo-integral',
     },
     {
       referencia:
-        'Longo, B. (2020, enero 31). Teoría del aprendizaje social de Bandura.Psicologia-online.com.',
+        'Mi Señal. (2021, agosto 3). 22 deportes para niños de 6 a 12 años.',
+      link: 'https://www.misenal.tv/noticias/deportes-para-ninos',
+    },
+    {
+      referencia:
+        'Unicef. (s/f). Los derechos del niño y por qué son importantes.',
       link:
-        'https://www.psicologia-online.com/teoria-del-aprendizaje-social-de-bandura-4915.html',
+        'https://www.unicef.org/es/convencion-derechos-nino/por-que-son-importantes',
     },
     {
       referencia:
-        'Triglia, A. (2015, mayo 30). La Teoría del Aprendizaje Social de Albert Bandura. pymOrganization.',
+        'Instituto Colombiano de Bienestar Familiar ICBF. (2017). Derechos y deberes. Portal ICBF.',
+      link: 'https://www.icbf.gov.co/publicaciones/derechos-y-deberes',
+    },
+    {
+      referencia: 'Mindeporte. (2021). Haz parte de nuestro portal de niños.',
+      link: 'https://www.portalninosmindeporte.gov.co/',
+    },
+    {
+      referencia: 'Comfenalco Antioquia. (2025). Deportes.',
       link:
-        'https://psicologiaymente.com/social/bandura-teoria-aprendizaje-cognitivo-social',
+        'https://www.comfenalcoantioquia.com.co/personas/servicios/recreacion/deportes',
+    },
+    {
+      referencia: 'Inder. (2025). Primera infancia: 0 a 5 años.',
+      link:
+        'https://www.inder.gov.co/programas-institucionales/primera-infancia-0-a-5-anos/',
     },
     {
       referencia:
-        'Rodríguez Palmero, M. L. (2013). La teoría del aprendizaje significativo en la perspectiva de la psicología cognitiva: ( ed.). Ediciones Octaedro, S.L.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/61891?page=5',
+        'Tecplay. (2025, 9 enero). El Impacto del Deporte en la Inclusión de Personas con Discapacidad. Fundación CREINSER.',
+      link:
+        'https://fundacioncreinser.com/impacto-deporte-inclusion-discapacidad/',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Bienestar Familiar ICBF. (2018). Programas y estrategias. Portal ICBF -.',
+      link: 'https://www.icbf.gov.co/bienestar',
+    },
+    {
+      referencia:
+        'ICBF lanza estrategia nacional para fortalecer la prevención y erradicación del trabajo infantil. (2021, 16 julio). Portal ICBF - Instituto Colombiano de Bienestar Familiar ICBF.',
+      link:
+        'https://www.icbf.gov.co/noticias/icbf-lanza-estrategia-nacional-para-fortalecer-la-prevencion-y-erradicacion-del-trabajo',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Bienestar Familiar ICBF. (2018). Proceso administrativo de restablecimiento de derechos. Portal ICBF -',
+      link:
+        'https://www.icbf.gov.co/programas-y-estrategias/proteccion/proceso-administrativo-de-restablecimiento-de-derechos-1b312af4-cf5f-415f-b853-133f7f643711',
+    },
+    {
+      referencia:
+        'Secretaría de Educación de Medellín, (2023, 19 octubre). Entorno Escolar Protector, una estrategia de atención y prevención - Secretaría de Educación. Secretaría de Educación.',
+      link:
+        'https://www.medellin.edu.co/entorno-escolar-protector-una-estrategia-de-atencion-y-prevencion/',
     },
   ],
   glosario: [
     {
-      termino: 'Adaptabilidad',
+      termino: 'Crianza',
       significado:
-        'Capacidad del lenguaje o comportamiento para ajustarse a las necesidades y características del entorno social, cultural o ecológico.',
+        'Conjunto de prácticas y cuidados que los padres o cuidadores ofrecen a los niños para garantizar su desarrollo físico, emocional y social en un entorno seguro y protector.',
     },
     {
-      termino: 'Andamiaje',
+      termino: 'Desarrollo',
       significado:
-        'Estrategia de apoyo temporal utilizada en el aprendizaje para ayudar a un individuo a alcanzar un nivel de competencia mayor, como lo explicó Vygotsky en su teoría sociocultural.',
+        'Proceso de crecimiento y cambio físico, cognitivo, emocional y social que los niños experimentan desde el nacimiento hasta la adolescencia, influido por factores biológicos, sociales y culturales.',
     },
     {
-      termino: 'Competencia lingüística',
+      termino: 'Derechos',
       significado:
-        'Conocimiento implícito de las reglas gramaticales que permite a una persona comprender y producir un idioma, según lo planteado por Chomsky.',
+        'Conjunto de principios y normas legales que garantizan el bienestar, la protección y el acceso a oportunidades equitativas para niños y niñas.',
     },
     {
-      termino: 'Egocentrismo moral',
+      termino: 'Educación',
       significado:
-        'Fase inicial del razonamiento moral en la que las decisiones se toman basándose únicamente en el interés propio, como ocurre en la fase preconvencional de Kohlberg.',
+        'Proceso sistemático de enseñanza y aprendizaje destinado a formar capacidades cognitivas, emocionales y sociales, especialmente desde la primera infancia.',
     },
     {
-      termino: 'Estructura jerárquica',
+      termino: 'Estímulo',
       significado:
-        'Organización de los componentes del lenguaje (como frases y palabras) en niveles interrelacionados, un concepto esencial en la gramática generativa de Chomsky.',
+        'Acciones o actividades diseñadas para potenciar las habilidades motoras, cognitivas, sociales y emocionales de los niños mediante el juego, la interacción y el aprendizaje.',
     },
     {
-      termino: 'Gramática universal',
+      termino: 'Interinstitucional',
       significado:
-        'Conjunto de principios innatos y comunes a todas las lenguas humanas, según la teoría de Noam Chomsky.',
+        'Colaboración entre diversas entidades y organizaciones (gubernamentales, no gubernamentales y civiles) con el fin de garantizar la protección integral de los derechos de los niños.',
     },
     {
-      termino: 'Internalización',
+      termino: 'Prevención',
       significado:
-        'Proceso por el cual las interacciones sociales se transforman en habilidades psicológicas internas, un concepto clave en la teoría de Vygotsky.',
+        'Estrategias y programas destinados a evitar riesgos que puedan afectar el bienestar y desarrollo de los niños, como el trabajo infantil, el abandono escolar o el maltrato.',
     },
     {
-      termino: 'Motivación',
+      termino: 'Protección',
       significado:
-        'Impulso interno o externo que mueve a un individuo a actuar o aprender, esencial en los procesos de aprendizaje por observación.',
+        'Acciones y políticas que buscan garantizar la seguridad, el cuidado y el bienestar de los niños en entornos libres de violencia y riesgos.',
     },
     {
-      termino: 'Procesamiento del lenguaje natural (PLN)',
+      termino: 'Restablecimiento',
       significado:
-        'Rama de la inteligencia artificial que se enfoca en enseñar a las máquinas a comprender y generar lenguaje humano de manera efectiva, influenciado por principios lingüísticos chomskyanos.',
+        'Proceso administrativo y judicial llevado a cabo por instituciones como el ICBF para garantizar que los derechos vulnerados de los niños sean restaurados.',
     },
     {
-      termino: 'Zona de desarrollo próximo (ZDP)',
+      termino: 'Vulnerabilidad',
       significado:
-        'Distancia entre lo que un individuo puede lograr por sí mismo y lo que puede alcanzar con ayuda, según la teoría de Vygotsky.',
+        'Situaciones o condiciones que ponen en riesgo el bienestar, desarrollo o derechos de los niños, como la pobreza, la violencia o el abandono.',
     },
   ],
 }

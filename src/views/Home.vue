@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La unidad aborda el desarrollo integral del niño de 0 a 7 años desde distintas teorías psicológicas. Se analizan enfoques fundamentales como la teoría psicosexual de Freud, la sociocultural de Vygotsky, el desarrollo moral según Kohlberg, la visión sistémica-ecológica de Chomsky, el aprendizaje social de Bandura y el aprendizaje significativo de Ausubel. Cada teoría explica el papel de la biología, el entorno y la cultura en la evolución del pensamiento, lenguaje, moralidad y conducta. El enfoque integral conecta el conocimiento teórico con contextos educativos y sociales, promoviendo el desarrollo pleno del niño.
+              p.descripcion.mb-4 La unidad aborda el desarrollo integral del niño de 0 a 7 años desde una atención intersectorial enfocada en salud, protección social y derechos. Se analizan el plan de vacunación infantil y el programa de crecimiento y desarrollo; se presentan programas como “De Cero a Siempre” y acciones de estimulación temprana ofrecidas por entidades como EPS y cajas de compensación. Además, se estudian estrategias de prevención y protección de derechos lideradas por el ICBF. Todo con el fin de crear entornos seguros que favorezcan el desarrollo pleno de la infancia en Colombia.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
