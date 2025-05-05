@@ -1,0 +1,32 @@
+name: Clean gh-pages
+
+on:
+  push:
+    branches:
+      - gh-pages  # Se dispara cuando hay un push a esta rama
+
+jobs:
+  clean-gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Remove node_modules
+        run: |
+          if [ -d "node_modules" ]; then
+            echo "Deleting node_modules..."
+            rm -rf node_modules
+          else
+            echo "No node_modules folder to remove."
+          fi
+
+      - name: Commit and push cleaned branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m "Remove node_modules from gh-pages"
+          git push origin gh-pages
