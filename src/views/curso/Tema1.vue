@@ -103,7 +103,7 @@
 
     .row.bg-morado.bg-full-width.p-4.py-xl-0.mb-4
       .col-12.col-xl-8.d-flex
-        .my-auto.py-xl-4
+        .my-auto.py-xl-4.px-3.px-xl-0
           p.mb-4 En Colombia, el <b>Ministerio de Salud y Protección Social</b> lidera el <b>Programa Ampliado de Inmunizaciones (PAI)</b>, una estrategia gratuita y obligatoria que busca proteger a la población infantil mediante un esquema completo de vacunación. Este programa, según <b>Minsalud (2020)</b>, incluye:
           span ●	Vacunas contra poliomielitis, sarampión, rubéola, hepatitis B, difteria, tétanos, tos ferina, entre otras.<br>●	Acceso gratuito a las vacunas en puntos habilitados en todo el país.<br>●	Campañas masivas para alcanzar poblaciones vulnerables.<br>●	Estrategias de vacunación extramurales y jornadas de sensibilización ante la desinformación.
 
@@ -141,7 +141,7 @@
     h2 Desafíos actuales del programa
 
     p.mb-4 A pesar de los logros, el PAI enfrenta retos importantes:
-    .row.mb-4
+    .row.mb-4.gap-3
       .col-10.col-md-6.col-xl-4.mx-auto.d-flex
         .d-flex.align-items-start.bg-verde.h-100.p-3(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
           img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-20.svg', alt='Texto descriptivo de la imagen')

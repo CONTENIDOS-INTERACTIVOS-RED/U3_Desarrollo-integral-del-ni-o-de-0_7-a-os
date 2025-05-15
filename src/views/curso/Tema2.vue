@@ -6,7 +6,7 @@
       p.mb-4 Las <b>acciones de protección social</b> comprenden estrategias, políticas y programas diseñados para <b>garantizar el bienestar, la equidad y la calidad de vida</b>, especialmente en poblaciones vulnerables. Estas acciones buscan <b>atender integralmente necesidades básicas</b> y promover el desarrollo infantil, articulando servicios de salud, educación, nutrición, cuidado y recreación (ICBF, 2018).
       .row.bg-rosa.bg-full-width.p-4.py-xl-0
         .col-12.col-xl-8.d-flex
-          .my-auto.py-xl-4
+          .my-auto.py-xl-4.px-3.px-xl-0
             p.mb-4 En el caso de la infancia, estas acciones incluyen:
 
             span ●	Programas de atención integral a la primera infancia<br>●	Estimulación temprana<br>●	Promoción de hábitos saludables<br>●	Participación familiar y comunitaria
@@ -95,7 +95,7 @@
       p.mb-4 El programa ha generado <b>avances significativos</b> en salud, nutrición y educación infantil, especialmente en contextos vulnerables, contribuyendo a la <b>reducción de brechas sociales</b> y fortaleciendo las capacidades familiares. Ha sentado bases para un <b>desarrollo sostenible</b> al integrar esfuerzos institucionales con la participación comunitaria.
       .row.bg-morado.bg-full-width.p-4.py-xl-0.mb-4
         .col-12.col-xl-8.d-flex
-          .my-auto.py-xl-4
+          .my-auto.py-xl-4.px-3.px-xl-0
             p.mb-4 Desafíos actuales incluyen:
             p.mb-4 ●	Cobertura limitada en zonas rurales y de difícil acceso.<br>●	Necesidad de mejorar la calidad de los servicios ofrecidos.<br>●	Articulación entre entidades implementadoras.
 
@@ -206,7 +206,7 @@
       p.mb-4 La estimulación temprana es <b>esencial para alcanzar los hitos del desarrollo</b> en tiempo adecuado. Cuando se aplica correctamente:
       .row.bg-morado.bg-full-width.p-4.py-xl-0.mb-4
         .col-12.col-xl-8.d-flex
-          .my-auto.py-xl-4
+          .my-auto.py-xl-4.px-3.px-xl-0
             p.mb-4 ●	Mejora la inteligencia emocional y social del niño.<br><br>●	Potencia el desarrollo neurológico y las funciones ejecutivas.<br><br>●	Prepara al niño para la etapa escolar, facilitando el aprendizaje.<br><br>●	Favorece el fortalecimiento de la familia, al involucrarla activamente en el proceso de desarrollo.
 
             span Al <b>articular esfuerzos interinstitucionales</b> (cajas, EPS, instituciones deportivas), se promueve un desarrollo infantil <b>equitativo e inclusivo</b>, beneficiando a niños de diversos contextos socioeconómicos y territoriales.
